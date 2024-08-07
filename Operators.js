@@ -49,6 +49,7 @@ compare(10,10);
 let aa=10;
 const bb=10;
 
+//check type and values
 function DataTypes(a,b){
     if( a ===  b){
         console.log("Both variable are same") ;
@@ -57,3 +58,16 @@ function DataTypes(a,b){
     }
 }
 DataTypes(aa,bb);
+
+//check values
+
+let aaa=10;
+let bbb='10';
+function DataTypess(a,b){
+    if( a ==  b){
+        console.log("Both variablesss are same") ;
+    }else{
+        console.log("Both variablesss are Not same") ;
+    }
+}
+DataTypess(aaa,bbb);
