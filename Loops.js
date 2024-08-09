@@ -83,3 +83,24 @@ const printStars=()=>{
     }
 }
 printStars();
+
+const fruits = ["apple", "orange", "cherry","apple", "orange", "cherry","apple", "orange", "cherry","apple", "orange", "cherry"];
+
+fruits.forEach((fruit,index)=>{
+    console.log(fruit,index);
+})
+
+// in In this example, the value of the current index is logged to the console.
+// x prints key
+// person[x] prints value
+
+const person = {fname:"John", lname:"Doe", age:25};
+for (let x in person) {
+console.log(x);
+}
+
+const cars = ["BMW", "Volvo", "Mini"];
+
+for (let x of cars) {
+  console.log(x)
+}
