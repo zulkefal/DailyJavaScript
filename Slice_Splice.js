@@ -5,6 +5,12 @@ const newCityArrSplice = cities.splice(1,3);
 console.log("Original: ", cities)
 console.log("New: ", newCityArrSplice)
 
+cities.splice(2, 0, "Sydney");
+console.log("Original: ", cities)
+//2 means the location where to add the new element
+//0 means how many elements to remove after index 2
+//Sydney is the new element to be added
+
 
 const citiess = ["Tokyo","Cairo","Los Angeles","Paris","Seattle"];
 //slice dont affect orignal array
